@@ -1,0 +1,18 @@
+.news_container {
+  width: 100vw;
+  height: 25px;
+  background-color: #fdedcc;
+
+  .text {
+    animation: moveText linear 14s -3s forwards infinite;
+
+    @keyframes moveText {
+      from {
+        transform: translateX(100%);
+      }
+      to {
+        transform: translateX(-150%);
+      }
+    }
+  }
+}

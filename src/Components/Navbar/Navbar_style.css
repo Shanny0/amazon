@@ -1,0 +1,80 @@
+.nav_container {
+  width: 100vw;
+  height: 60px;
+  background-color: #141a22;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo {
+  margin-top: 10px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.search_area .input_field {
+  color: white;
+  background-color: #202d3b;
+  height: 30px;
+  width: 400px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  padding: 0 5px;
+}
+
+.search_area .select {
+  outline: none;
+  color: white;
+  background-color: #202d3b;
+  border: none;
+  padding: 0 10px;
+  height: 30px;
+  border-bottom: 1px solid #202d3b;
+}
+
+.search_area .btn_submit {
+  background-color: #ff9500;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  height: 30px;
+  color: white;
+  padding: 0 10px;
+}
+
+.search_area .btn_submit:hover {
+  background-color: #ec8a00;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icons svg {
+  margin: 0 10px;
+}
+
+.icons .user {
+  content: " ";
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  background-color: orange;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=Navbar_style.css.map */
