@@ -6,8 +6,8 @@
 }
 
 .news_container .text {
-  -webkit-animation: moveText linear 14s -3s forwards infinite;
-          animation: moveText linear 14s -3s forwards infinite;
+  -webkit-animation: moveText  linear 14s -3s forwards infinite;
+          animation: moveText  linear 14s -3s forwards infinite;
 }
 
 @-webkit-keyframes moveText {

@@ -3,11 +3,17 @@
   height: 25px;
   background-color: #202d3b;
   color: white;
+ 
+  
+ 
+  
   
   
 
   .text {
-    animation:  moveText linear 14s -3s forwards infinite ;
+    
+    animation: moveText  linear 14s -3s forwards infinite ;
+    
 
     @keyframes moveText {
       

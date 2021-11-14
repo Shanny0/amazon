@@ -21,7 +21,14 @@ export default function Sidebar() {
                     <li>Film & Music</li>
                     <li>Hobby</li>
                     <li>Gift Cards</li>
+                    <li>Sell on Amazon</li>
+                    <li>Help</li>
+
                 </ul>
+                <div className="logout">
+                    <h1>Logout</h1>
+                </div>
+
 
             </div>
         </div>
